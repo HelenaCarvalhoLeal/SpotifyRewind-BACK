@@ -11,7 +11,7 @@ const app = express();
 app.use(cors());
 const PORT = 3000;
 
-const REDIRECT_URI = 'http://192.168.100.21/info';
+const REDIRECT_URI = 'http://192.168.15.9/info';
 
 app.get('/login', async (req, res) => {
     const scope = 'user-read-private user-follow-read user-top-read';
